@@ -1,0 +1,36 @@
+Maron Tibor - JJ7SLM
+NHF specifikáció
+
+A program célja
+A feladat egy olyan Tetris játék készítése,
+ahol a játékosnak a klasszikus 10x20-as pályán kell
+eltüntetnie az egymás után érkezõ játékelemeket azok
+azonos sorba rakásával.
+
+A program használata
+Miután a felhasználó elindította a programot
+egy menüben találja magát, ahol lehetõsége van választani
+a "Játék", az "Eredmények" és a "Kilépés" menüpontok 
+között. A menüpont kiválasztása a vezérlõnyilakkal
+történik.
+
+"Játék": elindítja a Tetris játékot. A játék egy 10x20-as
+pályán játszódik, ahol a játékos feladata eltüntetni
+az egymás után érkezõ játékelemeket soronként. Minden 
+egyes eltüntetett sorért 10 pontot kap a játékos. A játék
+akkor ér véget, hogyha betelt a játéktér és nem érkezhet
+újabb játékelem. Ebben a pillanatban véglegesedik
+a játékos pontszáma is, és hogyha ez az érték nagyobb
+mint az "Eredmények" menüben megjelenített 10. pontszám,
+akkor a játék bekér egy nevet is.
+A játék irányítása a vezérlõnyilakkal történik.
+
+"Eredmények": itt a top 10 pontszám kerül megjelenítésre
+csökkenõ sorrendben, névvel ellátva. Az eredményeket 
+a program egy .txt fájlban tárolja. Ezt a fájlt a 
+megnyitásakor olvassa be, és új top 10 eredmény esetén
+rögtön módosítja is azt.
+
+"Kilépés": ezt a menüpontot választva a felhasználó kilép
+a programból.
+

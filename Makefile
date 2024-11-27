@@ -10,7 +10,7 @@ SRCS = main.c jatek.c eredmenyek.c
 OBJS = $(SRCS:.c=.o)
 
 # Kimeneti fájl
-EXEC = tetris
+EXEC = tetris.app
 
 # Alapértelmezett cél: lefordítja a játékot
 all: $(EXEC)
